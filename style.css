@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: cursive;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 100%;
+    max-width: 365px;
+    height: 625px;
+    padding: 20px;
+    box-shadow: 0 10px 10px 0 rgba(21, 39, 63, 0.9);
+    border-radius: 18px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+} 
+
+.equi-img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.eth{
+    display: inline-block;
+    color:hsl(178, 100%, 50%) ;
+    vertical-align: middle;
+}
+
+.time{
+    display: inline-block;
+    float: right;
+}
+
+.time-span{
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    vertical-align: middle;
+}
+
+.lower-img{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.lower-txt{
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
